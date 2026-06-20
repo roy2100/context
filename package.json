@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "context-vendor",
+  "description": "Vendored single-file TS port of Go's context package (dev tooling only; runtime has no deps).",
+  "type": "module",
+  "scripts": {
+    "test": "node vendor/context.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.6.0"
+  }
+}
